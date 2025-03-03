@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# test-banking-system
-=======
 # Test Banking System
 
 ## Prerequisites
@@ -16,7 +13,7 @@ Ensure you have the following tools installed before proceeding:
    ```sh
    dotnet restore
    ```
-2. Apply the database migrations to create a local SQLite database (`ReSys.db`):
+2. Apply the database migrations to create a local SQLServer database (`Banking.dbo`):
    ```sh
    dotnet ef database update
    ```
@@ -43,4 +40,3 @@ Ensure you have the following tools installed before proceeding:
 
 ## License
 This project is licensed under the MIT License.
->>>>>>> 7434ee6 (INITIAL)
